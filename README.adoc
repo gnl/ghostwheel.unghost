@@ -1,0 +1,25 @@
+# ghostwheel.unghost
+:linkattrs:
+:toc:
+:toc-placement!:
+:hardbreaks:
+:sectanchors:
+ifdef::env-github[]
+:imagesdir: https://gnl.gitlab.io/images
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
+ifndef::env-github[]
+:imagesdir: ../gnl.gitlab.io/public/images
+endif::[]
+
+image:https://img.shields.io/clojars/v/gnl/ghostwheel.unghost.svg[link=https://clojars.org/gnl/ghostwheel.unghost] image:license.svg[link=https://choosealicense.com/licenses/epl-2.0]
+
+This contains Ghostwheel's code-stripping code for production builds. It's used by both the main link:https://github.com/gnl/ghostwheel[Ghostwheel package] as well as link:https://github.com/gnl/ghostwheel.stubs[ghostwheel.stubs].
+
+Copyright (c) 2018 George Lipov +
+Licensed under the link:https://choosealicense.com/licenses/epl-2.0/[Eclipse Public License 2.0]
+
