@@ -1,4 +1,4 @@
-(defproject gnl/ghostwheel.unghost "0.3.1-SNAPSHOT"
+(defproject gnl/ghostwheel.unghost "0.3.5-SNAPSHOT"
   :description "A tiny library used to remove Ghostwheel code in production"
   :url "https://github.com/gnl/ghostwheel.unghost"
   :scm {:name "git"
