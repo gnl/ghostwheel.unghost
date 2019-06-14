@@ -1,4 +1,4 @@
-(defproject gnl/ghostwheel.unghost "0.3.9"
+(defproject gnl/ghostwheel.unghost "0.4.0"
   :description "A tiny library used to remove Ghostwheel code in production"
   :url "https://github.com/gnl/ghostwheel.unghost"
   :scm {:name "git"
@@ -9,6 +9,6 @@
                         ["snapshots" :clojars]]
   :dependencies []
   :profiles {:dev {:dependencies [[org.clojure/clojurescript "1.10.520"]
-                                  [org.clojure/clojure "1.10.0"]]}}
+                                  [org.clojure/clojure "1.10.1"]]}}
   :source-paths ["src"]
   :clean-targets ^{:protect false} ["target" "resources"])
